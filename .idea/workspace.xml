@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4df41de2-1cc6-419c-95d6-d24be432fa1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson13/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson13/src/main/java/StreamDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson13/src/main/java/StreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson13/src/main/java/StreamDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Collect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/CustomCollection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/testCollect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson14/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson14/src/main/java/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson14/src/main/java/InterpolSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson14/src/main/java/TestSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -55,6 +52,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,7 +66,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamDemo3">
+  <component name="RunManager" selected="Application.TestSearch">
+    <configuration name="InsertSort" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InsertSort" />
+      <module name="Lesson14" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StreamDemo1" />
       <module name="Lesson13" />
@@ -90,6 +95,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestSearch" />
+      <module name="Lesson14" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testCollect.negativeContain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NewMaven" />
       <option name="PACKAGE_NAME" value="" />
@@ -100,23 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testCollect.positiveContain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NewMaven" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testCollect" />
-      <option name="METHOD_NAME" value="positiveContain" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSearch" />
         <item itemvalue="Application.StreamDemo3" />
         <item itemvalue="Application.StreamDemo2" />
         <item itemvalue="Application.StreamDemo1" />
         <item itemvalue="JUnit.testCollect.negativeContain" />
-        <item itemvalue="JUnit.testCollect.positiveContain" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +137,8 @@
       <workItem from="1573381829939" duration="1700000" />
       <workItem from="1573390553964" duration="23254000" />
       <workItem from="1573590402370" duration="5369000" />
-      <workItem from="1573664992994" duration="10621000" />
+      <workItem from="1573664992994" duration="11365000" />
+      <workItem from="1573928320735" duration="25002000" />
     </task>
     <servers />
   </component>
@@ -154,5 +157,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Lesson14/src/main/java/InterpolSearch.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
