@@ -23,5 +23,10 @@ public class StreamDemo1 {
         System.out.println("Количество элементов =  " + count);
 
         System.out.println("Среднее арифметическое =  " + sum / count);
+
+        OptionalDouble averege = myList.stream()
+                                        .mapToDouble(a->a)
+                                        .average();
+        System.out.println("Среднее арифметическое =  " + averege.getAsDouble());
     }
 }

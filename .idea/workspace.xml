@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4df41de2-1cc6-419c-95d6-d24be432fa1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson14/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson14/src/main/java/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson14/src/main/java/InterpolSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson14/src/main/java/TestSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson13/src/main/java/StreamDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson13/src/main/java/StreamDemo1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestSearch">
+  <component name="RunManager" selected="Application.StreamDemo1">
     <configuration name="InsertSort" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InsertSort" />
       <module name="Lesson14" />
@@ -114,10 +109,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamDemo1" />
         <item itemvalue="Application.TestSearch" />
         <item itemvalue="Application.StreamDemo3" />
         <item itemvalue="Application.StreamDemo2" />
-        <item itemvalue="Application.StreamDemo1" />
         <item itemvalue="JUnit.testCollect.negativeContain" />
       </list>
     </recent_temporary>
@@ -138,7 +133,9 @@
       <workItem from="1573390553964" duration="23254000" />
       <workItem from="1573590402370" duration="5369000" />
       <workItem from="1573664992994" duration="11365000" />
-      <workItem from="1573928320735" duration="25002000" />
+      <workItem from="1573928320735" duration="26332000" />
+      <workItem from="1574015599046" duration="586000" />
+      <workItem from="1574116226429" duration="679000" />
     </task>
     <servers />
   </component>
