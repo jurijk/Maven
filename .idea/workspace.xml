@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4df41de2-1cc6-419c-95d6-d24be432fa1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lesson15/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Eight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Five.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Four.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Nine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/One.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Seven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Six.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Three.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Two.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Zero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson13/src/main/java/StreamDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson13/src/main/java/StreamDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +58,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -61,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamDemo1">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="InsertSort" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InsertSort" />
       <module name="Lesson14" />
@@ -90,6 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Lesson15" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestSearch" />
       <module name="Lesson14" />
@@ -97,23 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testCollect.negativeContain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NewMaven" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testCollect" />
-      <option name="METHOD_NAME" value="negativeContain" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.StreamDemo1" />
         <item itemvalue="Application.TestSearch" />
         <item itemvalue="Application.StreamDemo3" />
         <item itemvalue="Application.StreamDemo2" />
-        <item itemvalue="JUnit.testCollect.negativeContain" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +147,10 @@
       <workItem from="1573664992994" duration="11365000" />
       <workItem from="1573928320735" duration="26332000" />
       <workItem from="1574015599046" duration="586000" />
-      <workItem from="1574116226429" duration="679000" />
+      <workItem from="1574116226429" duration="1365000" />
+      <workItem from="1574196382460" duration="729000" />
+      <workItem from="1574203786336" duration="2319000" />
+      <workItem from="1574272319482" duration="8479000" />
     </task>
     <servers />
   </component>
