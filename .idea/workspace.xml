@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4df41de2-1cc6-419c-95d6-d24be432fa1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson15/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Eight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Five.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Four.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Nine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/One.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Seven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Six.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Three.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Two.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/src/main/java/Zero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leccon16/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leccon16/src/main/java/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -76,7 +66,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Game">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Game" />
+      <module name="Leccon16" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InsertSort" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InsertSort" />
       <module name="Lesson14" />
@@ -86,13 +83,6 @@
     </configuration>
     <configuration name="StreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StreamDemo1" />
-      <module name="Lesson13" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamDemo2" />
       <module name="Lesson13" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Game" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.StreamDemo1" />
         <item itemvalue="Application.TestSearch" />
         <item itemvalue="Application.StreamDemo3" />
-        <item itemvalue="Application.StreamDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +140,9 @@
       <workItem from="1574116226429" duration="1365000" />
       <workItem from="1574196382460" duration="729000" />
       <workItem from="1574203786336" duration="2319000" />
-      <workItem from="1574272319482" duration="8479000" />
+      <workItem from="1574272319482" duration="9298000" />
+      <workItem from="1574620355333" duration="15144000" />
+      <workItem from="1574785228749" duration="4010000" />
     </task>
     <servers />
   </component>
