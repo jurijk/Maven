@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4df41de2-1cc6-419c-95d6-d24be432fa1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Leccon16/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccon16/src/main/java/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson17/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson17/src/main/java/Checker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +38,11 @@
   </component>
   <component name="ProjectId" id="1TLOA0nW6Xtb22qa8LIqoyPyMIq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -52,21 +57,16 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Game">
+  <component name="RunManager" selected="Application.Checker">
+    <configuration name="Checker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Checker" />
+      <module name="Lesson17" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Game" />
       <module name="Leccon16" />
@@ -88,13 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamDemo3" />
-      <module name="Lesson13" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="Lesson15" />
@@ -111,13 +104,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Checker" />
         <item itemvalue="Application.Game" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.StreamDemo1" />
         <item itemvalue="Application.TestSearch" />
-        <item itemvalue="Application.StreamDemo3" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -142,7 +147,11 @@
       <workItem from="1574203786336" duration="2319000" />
       <workItem from="1574272319482" duration="9298000" />
       <workItem from="1574620355333" duration="15144000" />
-      <workItem from="1574785228749" duration="4010000" />
+      <workItem from="1574785228749" duration="4737000" />
+      <workItem from="1574888650090" duration="3520000" />
+      <workItem from="1574893887412" duration="211000" />
+      <workItem from="1575019426431" duration="28477000" />
+      <workItem from="1575122502006" duration="11900000" />
     </task>
     <servers />
   </component>
@@ -161,6 +170,44 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1867" height="205" key="GridCell.Tab.0.bottom" timestamp="1575141330498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575141330498" />
+    <state width="1867" height="205" key="GridCell.Tab.0.center" timestamp="1575141330498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="205" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575141330498" />
+    <state width="1867" height="205" key="GridCell.Tab.0.left" timestamp="1575141330497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="205" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575141330497" />
+    <state width="1867" height="205" key="GridCell.Tab.0.right" timestamp="1575141330498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="205" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575141330498" />
+    <state width="1867" height="104" key="GridCell.Tab.1.bottom" timestamp="1575133578933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="104" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575133578933" />
+    <state width="1867" height="104" key="GridCell.Tab.1.center" timestamp="1575133578933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="104" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575133578933" />
+    <state width="1867" height="104" key="GridCell.Tab.1.left" timestamp="1575133578933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="104" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575133578933" />
+    <state width="1867" height="104" key="GridCell.Tab.1.right" timestamp="1575133578933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="104" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575133578933" />
+    <state x="572" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1575122573907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="572" y="294" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575122573907" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

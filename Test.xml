@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>
+    <title>
+        Простой хлеб
+    </title>
+    <composition>
+        <ingredient>Мука</ingredient>
+        <ingredient>Дрожжи</ingredient>
+        <ingredient>Тёплая вода</ingredient>
+    </composition>
+    <instructions>
+        <step>
+            Смешать все ингредиенты и тщательно замесить.
+        </step>
+        <step>
+            Закрыть тканью и оставить на один час в тёплом помещении.
+        </step>
+
+        <step>
+            Замесить ещё раз, положить на противень и поставить в духовку.
+        </step>
+    </instructions>
+</recipe>
