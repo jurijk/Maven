@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4df41de2-1cc6-419c-95d6-d24be432fa1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson17/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson17/src/main/java/Checker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leccon16/target/classes/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Eight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Five.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Four.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/META-INF/Lesson15.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Nine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Number.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/One.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Seven.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Six.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Three.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Two.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Zero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson17/target/classes/Checker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson19/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson19/src/main/java/CachTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -44,6 +58,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -54,22 +73,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.Checker">
-    <configuration name="Checker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Checker" />
-      <module name="Lesson17" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Game" />
-      <module name="Leccon16" />
+  <component name="RunManager" selected="Application.CachTester">
+    <configuration name="CachTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CachTester" />
+      <module name="Lesson19" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,34 +93,96 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamDemo1" />
-      <module name="Lesson13" />
+    <configuration name="New" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="New" />
+      <module name="Les18" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Lesson15" />
+      <module name="Les18" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestSearch" />
-      <module name="Lesson14" />
+    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestThread" />
+      <module name="Lesson19" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Les18" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Les18" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Checker" />
-        <item itemvalue="Application.Game" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.StreamDemo1" />
-        <item itemvalue="Application.TestSearch" />
+        <item itemvalue="Application.CachTester" />
+        <item itemvalue="Application.TestThread" />
+        <item itemvalue="Application.New" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +225,15 @@
       <workItem from="1574888650090" duration="3520000" />
       <workItem from="1574893887412" duration="211000" />
       <workItem from="1575019426431" duration="28477000" />
-      <workItem from="1575122502006" duration="11900000" />
+      <workItem from="1575122502006" duration="14862000" />
+      <workItem from="1575232567859" duration="3061000" />
+      <workItem from="1575235687118" duration="129000" />
+      <workItem from="1575235952062" duration="26000" />
+      <workItem from="1575236077477" duration="1351000" />
+      <workItem from="1575324693052" duration="12000" />
+      <workItem from="1575741964502" duration="78000" />
+      <workItem from="1575742056086" duration="27477000" />
+      <workItem from="1575821891160" duration="10785000" />
     </task>
     <servers />
   </component>
@@ -172,42 +254,98 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1867" height="205" key="GridCell.Tab.0.bottom" timestamp="1575141330498">
+    <state x="607" y="107" key="#New" timestamp="1575236783724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575141330498" />
-    <state width="1867" height="205" key="GridCell.Tab.0.center" timestamp="1575141330498">
+    <state x="607" y="107" key="#New/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575236783724" />
+    <state x="452" y="89" key="#Notifications" timestamp="1575741992833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="205" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575141330498" />
-    <state width="1867" height="205" key="GridCell.Tab.0.left" timestamp="1575141330497">
+    <state x="452" y="89" key="#Notifications/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575741992833" />
+    <state x="452" y="89" key="#Project_Structure" timestamp="1575236220916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="205" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575141330497" />
-    <state width="1867" height="205" key="GridCell.Tab.0.right" timestamp="1575141330498">
+    <state x="452" y="89" key="#Project_Structure/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575236220916" />
+    <state x="607" y="92" key="#Test_(1)" timestamp="1575236451163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="205" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575141330498" />
-    <state width="1867" height="104" key="GridCell.Tab.1.bottom" timestamp="1575133578933">
+    <state x="607" y="92" key="#Test_(1)/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575236451163" />
+    <state x="414" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575236504553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="104" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575133578933" />
-    <state width="1867" height="104" key="GridCell.Tab.1.center" timestamp="1575133578933">
+    <state x="414" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575236504553" />
+    <state x="721" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1575744925619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="104" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575133578933" />
-    <state width="1867" height="104" key="GridCell.Tab.1.left" timestamp="1575133578933">
+    <state x="721" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575744925619" />
+    <state x="496" y="119" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1575236288541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="104" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575133578933" />
-    <state width="1867" height="104" key="GridCell.Tab.1.right" timestamp="1575133578933">
+    <state x="496" y="119" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575236288541" />
+    <state x="-973" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575931081657">
+      <screen x="-1280" y="56" width="1280" height="984" />
+    </state>
+    <state x="-973" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575931081657" />
+    <state x="-910" y="169" key="FileChooserDialogImpl" timestamp="1575231549803">
+      <screen x="-1280" y="56" width="1280" height="984" />
+    </state>
+    <state x="-910" y="169" key="FileChooserDialogImpl/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575231549803" />
+    <state width="1867" height="432" key="GridCell.Tab.0.bottom" timestamp="1575931279230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="104" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575133578933" />
-    <state x="572" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1575122573907">
+    <state width="1227" height="432" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575931175835" />
+    <state width="1867" height="432" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575931279230" />
+    <state width="1867" height="432" key="GridCell.Tab.0.center" timestamp="1575931279230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="294" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575122573907" />
+    <state width="1227" height="432" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575931175835" />
+    <state width="1867" height="432" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575931279230" />
+    <state width="1867" height="432" key="GridCell.Tab.0.left" timestamp="1575931279230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1227" height="432" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575931175835" />
+    <state width="1867" height="432" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575931279230" />
+    <state width="1867" height="432" key="GridCell.Tab.0.right" timestamp="1575931279230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1227" height="432" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575931175835" />
+    <state width="1867" height="432" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575931279230" />
+    <state width="1867" height="411" key="GridCell.Tab.1.bottom" timestamp="1575235670901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="104" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575231799649" />
+    <state width="1867" height="411" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575235670901" />
+    <state width="1867" height="411" key="GridCell.Tab.1.center" timestamp="1575235670901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="104" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575231799649" />
+    <state width="1867" height="411" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575235670901" />
+    <state width="1867" height="411" key="GridCell.Tab.1.left" timestamp="1575235670901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="104" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575231799649" />
+    <state width="1867" height="411" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575235670901" />
+    <state width="1867" height="411" key="GridCell.Tab.1.right" timestamp="1575235670901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="104" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575231799649" />
+    <state width="1867" height="411" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575235670901" />
+    <state x="-1061" y="169" key="NewModule_or_Project.wizard" timestamp="1575231685531">
+      <screen x="-1280" y="56" width="1280" height="984" />
+    </state>
+    <state x="-1061" y="169" key="NewModule_or_Project.wizard/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575231685531" />
+    <state x="345" y="70" key="SettingsEditor" timestamp="1575827523630">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="345" y="70" key="SettingsEditor/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575827523630" />
+    <state x="572" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1575742070938">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="572" y="294" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575742070938" />
+    <state x="222" y="35" key="new project wizard" timestamp="1575746107857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="222" y="35" key="new project wizard/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575746107857" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
