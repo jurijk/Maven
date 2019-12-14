@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4df41de2-1cc6-419c-95d6-d24be432fa1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Leccon16/target/classes/Game.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Eight.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Five.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Four.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/META-INF/Lesson15.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Nine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Number.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/One.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Seven.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Six.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Three.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Two.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson15/target/classes/Zero.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson17/target/classes/Checker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson19/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson19/src/main/java/CachTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson20/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson20/src/main/java/PCFixed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -78,7 +62,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.CachTester">
+  <component name="RunManager" selected="Application.PCFixed">
     <configuration name="CachTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CachTester" />
       <module name="Lesson19" />
@@ -96,6 +80,13 @@
     <configuration name="New" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="New" />
       <module name="Les18" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PCFixed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PCFixed" />
+      <module name="Lesson20" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,26 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PCFixed" />
         <item itemvalue="Application.CachTester" />
         <item itemvalue="Application.TestThread" />
         <item itemvalue="Application.New" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +211,11 @@
       <workItem from="1575324693052" duration="12000" />
       <workItem from="1575741964502" duration="78000" />
       <workItem from="1575742056086" duration="27477000" />
-      <workItem from="1575821891160" duration="10785000" />
+      <workItem from="1575821891160" duration="11512000" />
+      <workItem from="1576016936583" duration="43000" />
+      <workItem from="1576017330839" duration="651000" />
+      <workItem from="1576192032710" duration="221000" />
+      <workItem from="1576354711260" duration="671000" />
     </task>
     <servers />
   </component>
@@ -290,26 +272,26 @@
       <screen x="-1280" y="56" width="1280" height="984" />
     </state>
     <state x="-910" y="169" key="FileChooserDialogImpl/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575231549803" />
-    <state width="1867" height="432" key="GridCell.Tab.0.bottom" timestamp="1575931279230">
+    <state width="1867" height="432" key="GridCell.Tab.0.bottom" timestamp="1576355374675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1227" height="432" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575931175835" />
-    <state width="1867" height="432" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575931279230" />
-    <state width="1867" height="432" key="GridCell.Tab.0.center" timestamp="1575931279230">
+    <state width="1867" height="432" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1576355374675" />
+    <state width="1867" height="432" key="GridCell.Tab.0.center" timestamp="1576355374675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1227" height="432" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575931175835" />
-    <state width="1867" height="432" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575931279230" />
-    <state width="1867" height="432" key="GridCell.Tab.0.left" timestamp="1575931279230">
+    <state width="1867" height="432" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1576355374675" />
+    <state width="1867" height="432" key="GridCell.Tab.0.left" timestamp="1576355374675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1227" height="432" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575931175835" />
-    <state width="1867" height="432" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575931279230" />
-    <state width="1867" height="432" key="GridCell.Tab.0.right" timestamp="1575931279230">
+    <state width="1867" height="432" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1576355374675" />
+    <state width="1867" height="432" key="GridCell.Tab.0.right" timestamp="1576355374675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1227" height="432" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575931175835" />
-    <state width="1867" height="432" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575931279230" />
+    <state width="1867" height="432" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1576355374675" />
     <state width="1867" height="411" key="GridCell.Tab.1.bottom" timestamp="1575235670901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -338,14 +320,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="345" y="70" key="SettingsEditor/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575827523630" />
-    <state x="572" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1575742070938">
+    <state x="572" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1576016970116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="294" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575742070938" />
-    <state x="222" y="35" key="new project wizard" timestamp="1575746107857">
+    <state x="572" y="294" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1576016970116" />
+    <state x="222" y="35" key="new project wizard" timestamp="1576355217557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="222" y="35" key="new project wizard/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575746107857" />
+    <state x="222" y="35" key="new project wizard/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1576355217557" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

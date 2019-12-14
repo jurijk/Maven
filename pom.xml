@@ -15,8 +15,9 @@
         <module>Lesson15</module>
         <module>Leccon16</module>
         <module>Lesson17</module>
-        <module>Test</module>
+
         <module>Lesson19</module>
+        <module>Lesson20</module>
     </modules>
 
     <dependencies>
