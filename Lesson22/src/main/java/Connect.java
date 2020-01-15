@@ -24,14 +24,17 @@ public class Connect {
             System.out.println("Получен statement");
             ResultSet resSet;
 
-            resSet = statement.executeQuery("select * from student.students");
+             String sql = "select * from student.students";
+            resSet = statement.executeQuery(sql);
             while (resSet.next())
                 System.out.println(resSet.getInt("id_student") + " : " + resSet.getString("first_second_name")
                         + " : " + resSet.getInt("id_class") + " : " + resSet.getInt("year_receipt"));
 
             System.out.println("--------------------------------------------- ");
 
-            resSet = statement.executeQuery("select * from student.students where year_receipt = 2017");
+            String sql1 = String.format("select * from student.students where year_receipt = %d",2017);
+            resSet = statement.executeQuery(sql1);
+            //select * from student.students where year_receipt = 2017
 
             while (resSet.next())
                 System.out.println(resSet.getInt("id_student") + " : " + resSet.getString("first_second_name")
@@ -39,28 +42,33 @@ public class Connect {
 
             System.out.println("--------------------------------------------- ");
 
-            resSet = statement.executeQuery("select student.students.first_second_name, student.classes.index_class from student.students\n " +
-                    "inner join student.classes on students.id_class = classes.id_class\n " +
-                    "where classes.index_class = 'Java 1'");
+            String sql2 = String.format("select student.students.first_second_name, student.classes.index_class from student.students \n" +
+                    "inner join student.classes on students.id_class = classes.id_class where classes.index_class = %s", "'Java 1'");
+
+            resSet = statement.executeQuery(sql2);
+
             while (resSet.next())
                 System.out.println(resSet.getString("first_second_name") + " : " + resSet.getString("index_class"));
 
             System.out.println("--------------------------------------------- ");
 
-           resSet = statement.executeQuery("select student.students.first_second_name, student.points.point_st, student.lessons.name_of_lesson, student.teachers.first_cecond_name from student.students\n" +
-                   "inner join student.points on student.students.id_student = points.id_student\n" +
-                   "inner join student.lessons on student.points.id_lesson = lessons.id_lesson\n" +
-                   "inner join student.teachers on student.lessons.id_teacher = teachers.id_teacher\n" +
-                   "where students.id_student = 2");
+            String sql3 = String.format("select student.students.first_second_name, student.points.point_st, student.lessons.name_of_lesson, student.teachers.first_cecond_name from student.students\n" +
+                    "inner join student.points on student.students.id_student = points.id_student\n" +
+                    "inner join student.lessons on student.points.id_lesson = lessons.id_lesson\n" +
+                    "inner join student.teachers on student.lessons.id_teacher = teachers.id_teacher\n" +
+                    "where students.id_student = %d", 3);
+
+           resSet = statement.executeQuery(sql3);
             while (resSet.next())
                 System.out.println(resSet.getString("first_second_name") + " : " + resSet.getInt("point_st")
                         + " : " + resSet.getString("name_of_lesson") + " : " + resSet.getString("first_cecond_name"));
 
             System.out.println("--------------------------------------------- ");
 
-            resSet = statement.executeQuery("select first_second_name as Avg_count from student.students where id_student = 5\n" +
-                    "union\n" +
-                    "select avg(point_st)  from student.points where id_student = 5");
+            String sql4 = String.format("select first_second_name as Avg_count from student.students where id_student = %d\n " +
+                    " union select avg(point_st)  from student.points where id_student = %d",5, 5);
+
+            resSet = statement.executeQuery(sql4);
             while (resSet.next())
                 System.out.println(resSet.getString("Avg_count") );
 
@@ -75,9 +83,7 @@ public class Connect {
 
             System.out.println("Соединение закрыто");
         }
-
     }
-
 }
 
 
