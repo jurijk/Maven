@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4df41de2-1cc6-419c-95d6-d24be432fa1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lesson24/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson24/src/main/java/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson24/src/main/java/MyApp1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson24/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson22/src/main/java/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson22/src/main/java/Connect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +51,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1TLOA0nW6Xtb22qa8LIqoyPyMIq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -70,12 +78,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.39834407" />
     <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
-  <component name="RunManager" selected="Application.Connect">
+  <component name="RunManager" selected="Application.MyApp1">
     <configuration name="CachTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CachTester" />
       <module name="Lesson19" />
@@ -97,9 +105,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="New" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="New" />
-      <module name="Les18" />
+    <configuration name="MyApp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyApp1" />
+      <module name="Lesson24" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyApp1" />
         <item itemvalue="Application.Connect" />
         <item itemvalue="Application.PCFixed" />
         <item itemvalue="Application.CachTester" />
         <item itemvalue="Application.TestThread" />
-        <item itemvalue="Application.New" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +244,10 @@
       <workItem from="1578516217477" duration="1907000" />
       <workItem from="1578599661716" duration="4238000" />
       <workItem from="1578757772009" duration="58000" />
-      <workItem from="1579118252777" duration="4223000" />
+      <workItem from="1579118252777" duration="4829000" />
+      <workItem from="1579639501325" duration="83000" />
+      <workItem from="1579639597397" duration="6000" />
+      <workItem from="1580757980168" duration="836000" />
     </task>
     <servers />
   </component>
@@ -256,6 +267,9 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="607" y="107" key="#New" timestamp="1575236783724">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -265,9 +279,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="89" key="#Notifications/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575741992833" />
-    <state x="452" y="89" key="#Project_Structure" timestamp="1575236220916">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1016" y="140" key="#Project_Structure" timestamp="1580758256165">
+      <screen x="-1280" y="56" width="1280" height="984" />
     </state>
+    <state x="-1016" y="140" key="#Project_Structure/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1580758256165" />
     <state x="452" y="89" key="#Project_Structure/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1575236220916" />
     <state x="452" y="95" key="#SQL_Dialects" timestamp="1577915058244">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -298,26 +313,26 @@
     </state>
     <state x="-910" y="169" key="FileChooserDialogImpl/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575231549803" />
     <state x="555" y="119" key="FileChooserDialogImpl/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1577395948719" />
-    <state width="1867" height="199" key="GridCell.Tab.0.bottom" timestamp="1579122624087">
+    <state width="1867" height="184" key="GridCell.Tab.0.bottom" timestamp="1580758905789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1227" height="432" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575931175835" />
-    <state width="1867" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1579122624087" />
-    <state width="1867" height="199" key="GridCell.Tab.0.center" timestamp="1579122624087">
+    <state width="1867" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1580758905789" />
+    <state width="1867" height="184" key="GridCell.Tab.0.center" timestamp="1580758905789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1227" height="432" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575931175835" />
-    <state width="1867" height="199" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1579122624087" />
-    <state width="1867" height="199" key="GridCell.Tab.0.left" timestamp="1579122624087">
+    <state width="1867" height="184" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1580758905789" />
+    <state width="1867" height="184" key="GridCell.Tab.0.left" timestamp="1580758905789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1227" height="432" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575931175835" />
-    <state width="1867" height="199" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1579122624087" />
-    <state width="1867" height="199" key="GridCell.Tab.0.right" timestamp="1579122624087">
+    <state width="1867" height="184" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1580758905789" />
+    <state width="1867" height="184" key="GridCell.Tab.0.right" timestamp="1580758905789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1227" height="432" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.56.1280.984@-1280.56.1280.984" timestamp="1575931175835" />
-    <state width="1867" height="199" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1579122624087" />
+    <state width="1867" height="184" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1580758905789" />
     <state width="1867" height="411" key="GridCell.Tab.1.bottom" timestamp="1575235670901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -354,14 +369,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="792" y="207" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1577543893643" />
-    <state x="572" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1578080549349">
+    <state x="572" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1579639597918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="294" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1578080549349" />
-    <state x="222" y="35" key="new project wizard" timestamp="1577393171610">
+    <state x="572" y="294" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1579639597918" />
+    <state x="222" y="35" key="new project wizard" timestamp="1580758042197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="222" y="35" key="new project wizard/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1577393171610" />
+    <state x="222" y="35" key="new project wizard/0.0.1920.1040/-1280.56.1280.984@0.0.1920.1040" timestamp="1580758042197" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1577911126715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

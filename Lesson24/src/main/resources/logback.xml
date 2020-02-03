@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- создание аппендера для вывода лога в консоль и его форматирования -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- создание аппендера для записи лога в файл "myApp.log" и форматирования строк -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>D:\myApp.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- создание аппендера для записи лога в файл "myFoo.log" и форматирования строк -->
+    <appender name="FILE_FOO" class="ch.qos.logback.core.FileAppender">
+        <file>D:\myFoo.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- события которые регистрирует логгер "name.logger" будут выводится в консоль с уровнем "warn" -->
+    <logger name="name.logger" level="warn" >
+        <appender-ref ref="STDOUT" />
+    </logger>
+
+    <!-- события которые регистрирует логгер "name.logger1" будут выводится в файл "myApp.log" с уровнем "info" -->
+    <logger name="name.logger1" level="info" >
+        <appender-ref ref="FILE" />
+    </logger>
+
+    <!-- события которые регистрирует логгер "loggerFoo" будут выводится в файл myFoo.log с уровнем "error" -->
+    <logger name="loggerFoo" level="error" >
+        <appender-ref ref="FILE_FOO" />
+    </logger>
+    <!---->
+    <!-- <root level="warn">
+          <appender-ref ref="STDOUT" />
+      </root> -->
+</configuration>
